@@ -40,5 +40,5 @@ While( [
 
 			];
 
-			_explodedAnimalList
+			UniqueValues(_explodedAnimalList)
 )
