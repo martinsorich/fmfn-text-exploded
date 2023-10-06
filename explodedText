@@ -1,0 +1,44 @@
+While( [
+
+			_list = List( "cat" , "mouse" , "bird", "capybara");
+			_animal = "";
+			_animalList = "";
+			_i = 1
+
+			];
+
+			_i ≤ ValueCount ( _list );
+
+			[
+
+			_animal = GetValue( _list ; _i );
+			_explodedAnimal = While( [
+
+				                        _animal = _animal;
+									              _length = Length( _animal );
+									              _list = "";
+									              _j = 1
+
+									             ];
+
+									              _j ≤ _length;
+
+									            [ 
+
+										            _string = left( _animal ; _j  );
+										            _list = List( _list ; _string );
+										            _j = _j + 1
+
+									            ];
+
+									             _list
+
+									    ); // end inner While
+
+			_explodedAnimalList = List( _explodedAnimalList ; _explodedAnimal );
+			_i = _i + 1
+
+			];
+
+			_explodedAnimalList
+)
