@@ -2,7 +2,7 @@ While( [
 
 			_list = List( "cat" , "mouse" , "bird", "capybara");
 			_animal = "";
-			_animalList = "";
+			_explodedAnimalList = "";
 			_i = 1
 
 			];
