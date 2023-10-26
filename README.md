@@ -1,2 +1,2 @@
 # text-exploded
-List of values exploded into their elemental strings
+Custom Function using the Whiel function to loop through a List of values, exploding each value into its elemental strings.
